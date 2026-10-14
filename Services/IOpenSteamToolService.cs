@@ -388,7 +388,6 @@ public class OpenSteamToolService : IOpenSteamToolService
     private static readonly (string File, string Owner)[] ForeignKernelFingerprints =
     [
         ("hid.dll", "SteamTools"),
-        ("steam.cfg", "SteamTools"),
         ("zlib1.dll", "SteamTools"),
         ("User32.dll", "GreenLuma"),
     ];
